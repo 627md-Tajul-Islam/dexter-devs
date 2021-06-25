@@ -1,16 +1,18 @@
-/*
-*
-* ==========================================
-* CUSTOM UTIL CLASSES
-* ==========================================
-*
-*/
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+  font-family: 'Roboto', sans-serif;
+}
+/* Header */ 
 .page-holder {
     min-height: 100vh;
   }
-  
   .bg-cover {
     background-size: cover !important;
   }
-  
+#header{
+  background: url(images/header.jpg);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
